@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+div h1{
+    position:absolute;
+    text-decoration:small-caps ;
+    left:-20px;
+    overflow:hide;
+    color:white;
+    transform:translate(0px);
+    text-shadow:2px 2px #ff0000;
+    animation-name:new;
+    animation-duration:10s;
+   animation-iteration-count:infinite ;
+    
+}
+@keyframes new{
+    from{
+         color:white;
+    text-shadow:2px 2px #ff0000;
+    transform:translate(0px);
+    }
+    to
+    {
+         color:black ;
+    text-shadow:2px 2px #ffffff;
+         transform:translate(190%);
+    }
+}
+
+
+section{
+    position: absolute;
+    top:20vh;
+    text-align: center;
+    border: 3px solid;
+    border-radius:10px;
+    
+}
+
+button{
+    margin:0%;
+    padding: 0%;
+    width:80px;
+    height: 60px;
+    font-family:arial;
+    font-weight: 400;
+    font-size: 27px;
+    border: none;
+    border-radius:5px;
+    background-color: yellowgreen;
+    outline:none;
+}
+button:hover{
+    background-color: white;
+}
+.cont input{
+   position:relative;
+    left:-9px;
+    border:none;
+    outline:none;
+    width:330px;
+    height:70px;
+    border-radius:5px;
+    background-color: rgba(0,0,0);
+    font-size:29px;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    color:red;
+    overflow:hidden;
+    text-decoration:none;
+    
+}
+#outscr{
+    height:30px;
+    font-size:20px;
+    color:white;
+    
+}
+
+#equal{
+     background-color:white;
+     color:black;
+}
+#equal:hover{
+    background-color: white;
+    color: black;
+    border: none;
+}
